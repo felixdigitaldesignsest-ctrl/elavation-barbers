@@ -60,7 +60,7 @@ nav {
   border-radius: 10px;
 }
 
-/* Gallery */
+/* Placeholder Gallery */
 .gallery-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
@@ -69,9 +69,16 @@ nav {
   margin: auto;
 }
 
-.gallery-cards img {
-  width: 100%;
+.placeholder-card {
+  background: var(--card-background);
+  padding: 60px 20px;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* Contact Form */
